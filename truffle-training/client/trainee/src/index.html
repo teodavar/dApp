@@ -1,0 +1,91 @@
+<!-- ΤRΑΙΝΕΕ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Trainee Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">Trainee Dashboard</h1>
+          <hr/>
+          <br/>
+        </div>
+      </div>   
+  <div class="row">
+      </div>
+      <div id="TraineeDemosRow" >
+        <h4 id="traineeAddress" class="text-left"></h4>
+        <h4 id="traineeBalance" class="text-left"></h4><br/>
+        <h4 id="traineeStatus" class="text-left"></h4><br/>
+          <!-- Trainee staff is loaded here -->
+      </div>
+  </div>
+</div>
+
+    <div id="demoTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-demo">
+          <div class="panel-heading">
+            <h3 class="panel-title">Scrappy</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Agent</strong>: <span class="agent-agent">Golden Retriever</span><br/>
+            <strong>Goal</strong>: <span class="agent-goal">Warren, MI</span><br/><br/>
+
+            <strong>Duration</strong>:<select class="browser-default custom-select" id="duration">
+              <option durselected>in minutes</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select><br/><br/>
+
+            <strong>Environment</strong>:<select class="browser-default custom-select" id="environment">
+              <option value="">Select.....</option>
+              <option value="default">Default</option>
+              <option value="oneflower">One Flower</option>
+              <option value="clusterflowers">Cluster of Flowers</option>
+              <option value="hiddenflowers">Hidden Flowers</option>
+            </select><br/><br/>
+
+
+
+            <button class="btn btn-default btn-request-demo" type="button" data-id="0">Request Demo</button><br/><br/>
+            <strong>IPFS Hash</strong>: <span class="ipfs-hash"> </span><br/><br/> <!-- initialized to <space> -->
+            <button class="btn btn-default btn-download-demo" type="button" data-id="0">Download Demo Start Training</button><br/><br/>
+            <button class="btn btn-default btn-pay" type="button" data-id="0">Approve - Pay</button><br/><br/>
+            <h5 id="reward-gained" class="text-left"></h5><br/>
+            <h5 id="amount" class="text-left"></h5><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "name": "Humming Bird",
+    "picture": "images/hummingbird.png",
+    "agent": "A bird that has six degrees of freedom, meaning it can fly and turn in any direction to find targets.",
+    "goal": "The hummingbird must navigate to flowers, dip its beak in, and drink nectar"
+  },
+  {
+    "id": 1,
+    "name": "Pyramids",
+    "picture": "images/pyramid.png",
+    "agent": "Environment where the agent needs to press a button to spawn a pyramid, then navigate to the pyramid, knock it over, and move to the gold brick at the top",
+    "goal": "Move to the golden brick on top of the spawned pyramid"
+  },
+  {
+    "id": 2,
+    "name": "Crawler",
+    "picture": "images/spider.png",
+    "agent": "A creature with 4 arms and 4 forearms",
+    "goal": "Agent must move its body toward the goal direction without falling"
+  }
+]
