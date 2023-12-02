@@ -1,4 +1,4 @@
-**My thesis work produced a [research article] ( https://www.sciencedirect.com/science/article/abs/pii/S0167739X23002406) on Reinforcement Learning at Elsevier - Future Generation Computer Systems Volume 148, November 2023, Pages 550-563**
+**My thesis work produced a research article ( https://www.sciencedirect.com/science/article/abs/pii/S0167739X23002406) on Reinforcement Learning at Elsevier - Future Generation Computer Systems Volume 148, November 2023, Pages 550-563**
 
 # Scope
 **A decentralized application that fully automates the workflow of the demonstrations’ trading and the Trainee agent training process**
